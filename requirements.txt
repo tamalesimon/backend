@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+psycopg2-binary (or asyncpg if we go full async DB operations immediately)
+sqlalchemy
+alembic
+passlib[bcrypt]
+python-jose[cryptography] (or PyJWT)
+python-multipart
+boto3
+python-dotenv (for loading .env in local development)
+spacy
+pypdf2 (for basic PDF text extraction)
+python-docx (for basic DOCX text extraction)
+httpx (for testing)
+pytest (for testing)
+spacy-lookups-data (for en_core_web_sm model)
